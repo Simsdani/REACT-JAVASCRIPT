@@ -1,6 +1,6 @@
 import React from "react";
 import mountains from "./mountains.jpg";
-import styles from "PostCard.module.css"
+import styles from "./PostCard.module.css"
 
 function PostCard() {
     return (
@@ -9,7 +9,8 @@ function PostCard() {
             <div className = {styles.content}>
                 <p className = {styles.date}>4 Days Ago</p>
                 <p className = {styles.title}>Post One</p>
-                <p className = {styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros vel velit dictum tristique.</p>
+                <p className = {styles.description}>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Sed id eros vel velit dictum tristique.</p>
 
             </div>
             <div className = {styles.footer}>
@@ -26,7 +27,12 @@ function PostCard() {
                 <p className = {styles.footerLabel}>COMMENTS</p>
             </div>
             </div>
+
+            
         </div>
+
+        
+        
     );
 }
 
